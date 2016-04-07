@@ -5,7 +5,7 @@ A simple tool for downloading log files from CloudFlare's Enterprise Log Share R
 ## Usage
 
 ```
-$ node index.js email='example@example.com' key='xxxxxxxxxxxxxxxxxx' zone='xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx' output='path/to/file.gz' start='1459782073620' end='1459782058543' count='1000'
+$ node index.js email='example@example.com' key='xxxxxxxxxxxxxxxxxx' zone='xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx' destination='path/to/file.gz' start='1459782073620' end='1459782058543' count='1000'
 
 email: string
   Your authorization email
@@ -16,7 +16,7 @@ key: string
 zone: string
   32 character zone identifier tag
 
-output: string
+destination: string
   Optional: Output directory. Defaults to current directory. Filename output: logs_1460033679360.json.gz
 
 start: integer
