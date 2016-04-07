@@ -1,0 +1,22 @@
+{
+  "name": "cloudflare-logs",
+  "version": "1.0.0",
+  "description": "A small client for download logs from CloudFlare's Enterprise Log Share",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test"
+  },
+  "author": "Nathan Kleekamp, Office of Design, U.S. Department of State",
+  "license": "MIT",
+  "dependencies": {
+    "request": "^2.69.0",
+    "underscore": "^1.8.3"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "eslint": "^2.7.0",
+    "eslint-config-airbnb": "^6.2.0",
+    "glob": "^7.0.3",
+    "mocha": "^2.4.5"
+  }
+}
