@@ -1,3 +1,7 @@
+# :warning: THIS REPO HAS BEEN ARCHIVED :warning:
+
+This project has been archived and is no longer being maintained. The code is preserved here as a reference.
+
 # CloudFlare Log Client
 
 A simple tool for downloading log files from CloudFlare's Enterprise Log Share REST API. See CloudFlare's Enterprise Log Share [documentation](https://support.cloudflare.com/hc/en-us/articles/216672448-Enterprise-Log-Share-REST-API).
